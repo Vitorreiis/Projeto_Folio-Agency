@@ -1,0 +1,19 @@
+.cabecalho{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 128px;
+    padding: 0 16px;
+    .cabecalho-logo{
+        width: 127.2px;
+        height: 32px;
+    }
+    .cabecalho-navbar{
+        background-color: transparent;
+        border: none;
+        width: auto;
+        height: auto;
+        }
+    }
+    

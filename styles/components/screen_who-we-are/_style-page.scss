@@ -1,0 +1,87 @@
+.design-container{
+    background-color: #232340;
+    color: #FFFFFF;
+    height: 1600px;
+    .design-container_conteudo{
+        margin-left: 33px;
+        .design-container_numeracao{
+            font-size: 14px;
+            display: inline-block;
+            margin: 64px 24px 24px 0;
+            color: #ADADAD;
+        }
+        .design-container_semi-titulo{
+            display: inline-block;
+            font-size: 14px;
+        }
+        .design-container_titulo{
+            font-weight: 700;
+            font-size: 40px;
+        }
+        .design-container_buttons{
+            display: flex;
+            margin-top: 32px;
+            .design-container_navigator1{
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                margin-right: 16px;
+                background-color: transparent;
+                border: none;
+            }
+            .design-container_navigator2{
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                background-color: #5468E7;
+                border: none;
+                text-align: center;
+                align-items: center;
+            }
+        }
+        #design-container_navdata{
+                margin-left: 54px ;
+                color: #FFFFFF;
+                width: 144px;
+                height: 48px;
+                background-color: transparent;
+                background: #232340;
+                border-radius: 8px; 
+                border: none;
+        }
+}
+.img-container2{
+    img{
+        margin-top: 80px;
+    }
+}
+.design-team{
+    margin: 56px 32px;
+    .design-team_titulo{
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .design-team_paragrafo{
+        color: #8B8B8B;
+        margin: 40px 0 32px 0;
+    }
+}
+.numeracao-record_screen-hero{
+    margin: 0 32px;
+    width: 310px;
+    height: 310px;
+    background-color: #232340;
+    box-shadow: 0px 23px 51px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1{
+        font-size: 140px;
+    }
+    h2{
+        font-size: 18px;
+    }
+}
+}

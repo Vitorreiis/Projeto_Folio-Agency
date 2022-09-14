@@ -1,0 +1,9 @@
+//Importando arquivo SCSS
+@import './variables';
+
+//Declarando a fonte em todo html
+html, body, h1, p, button, a{
+    font-family: $source;
+    margin: 0;
+    padding: 0;
+}
