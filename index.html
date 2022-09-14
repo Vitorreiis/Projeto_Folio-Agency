@@ -19,12 +19,37 @@
 <body>
     <header class="cabecalho">
         <img src="./assets/logo-marca.svg" alt="Logo-marca" class="cabecalho-logo">
-        <a href="/styles/components/screen_1/html/menu-lateral.html" class="cabecalho-navbar"><img src="./assets/icone-navbar.svg" alt="Navbar"></a>
+        <button class="cabecalho-navbar"><img src="./assets/icone-navbar.svg" alt="Navbar"></button>
+        <nav class="menu-lateral">
+            <div class="cabecalho_menu-lateral">
+                <img class="logo_menu-lateral" src="/assets/logo_menu-lateral.svg" alt="Logo marca">
+                <button class="exit_menu-lateral"><img src="/assets/exit-menu_lateral.svg" alt= 'Menu lateral'></button>
+            </div>
+            <div class="links_menu-lateral">
+                <a href="" >Work</a>
+                <a href="">About</a>
+                <a href="">Services</a>
+                <a href="">Jobs</a>
+            </div>
+            <div class="redes-sociais_menu-lateral">
+                <a class="facebook" href="https://pt-br.facebook.com/"><img src="/assets/logo-facebook.svg" alt="Facebook"></a>
+                <a class="youtube" href="https://www.youtube.com/"><img src="/assets/logo-youtube.svg" alt="Youtube"></a>
+                <a class="instagram" href="https://www.instagram.com/"><img src="/assets/logo-instagram.svg" alt="Instagram"></a>
+            </div>
+        </nav>
     </header>
     <section class="home-container">
         <div class="texto-descricao">
             <h1>Stand Out<br> from The <br>Crowd.</h1>
             <p>Agency is a full-service agency, busy<br> designing and building beautiful digital<br> products, brands, and experiences.</p>
+            <div class="design-container_buttons">
+                <a class="button-left">
+                    <img src="/assets/arrow-left.svg" alt="Seta para direita">
+                </a>
+                <a href="/styles/pages/screen_who-we-are/page.html" class="button-right">
+                    <img src="/assets/arrow-right.svg" alt="Seta para esquerda">
+                </a>
+            </div>
             <button class="button-screen_hero">Recent Work</button>
         </div>
         <div class="img-container1">
@@ -57,5 +82,6 @@
             <h4>© 2020, UI8 LLC.</h4>
         </div>
     </footer>
+    <script src="/index.js"></script>
 </body>
 </html>

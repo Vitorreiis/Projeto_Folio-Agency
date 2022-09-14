@@ -22,41 +22,53 @@ html, body, h1, p, button, a {
   width: auto;
   height: auto;
 }
-
-.navigator {
-  background-color: #232340;
-  transition-timing-function: ease;
-  transition-duration: 2s;
+.cabecalho .cabecalho-navbar:hover {
+  cursor: pointer;
 }
-.navigator .menu-lateral .cabecalho_menu-lateral {
+
+.menu-lateral {
+  display: none;
+  position: absolute;
+  background-color: #232340;
+  right: -100vw;
+  bottom: 0;
+  top: 0;
+  transition: 0.25s;
+}
+.menu-lateral .cabecalho_menu-lateral {
   display: flex;
   justify-content: space-between;
   width: 375px;
-  height: 128px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }
-.navigator .menu-lateral .cabecalho_menu-lateral .logo_menu-lateral {
+.menu-lateral .cabecalho_menu-lateral .logo_menu-lateral {
   width: 128px;
   height: 32px;
   margin: 52px 0 0 32px;
 }
-.navigator .menu-lateral .cabecalho_menu-lateral .exit_menu-lateral {
+.menu-lateral .cabecalho_menu-lateral .exit_menu-lateral {
   margin: 52px 32px 0px 0px;
   width: 32px;
   height: 32px;
+  background: none;
+  border: none;
 }
-.navigator .menu-lateral .cabecalho_menu-lateral .exit_menu-lateral img {
+.menu-lateral .cabecalho_menu-lateral .exit_menu-lateral img {
   width: 32px;
   height: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.navigator .links_menu-lateral {
+
+.links_menu-lateral {
   display: flex;
   flex-direction: column;
   margin: 138px 0 146px 32px;
 }
-.navigator .links_menu-lateral a {
+.links_menu-lateral a {
   padding-bottom: 40px;
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -69,15 +81,16 @@ html, body, h1, p, button, a {
   font-size: 32px;
   color: #595976;
 }
-.navigator .links_menu-lateral a:hover {
+.links_menu-lateral a:hover {
   color: #FFFFFF;
 }
-.navigator .redes-sociais_menu-lateral {
+
+.redes-sociais_menu-lateral {
   background-color: transparent;
   display: flex;
   padding: 0 0 40px 32px;
 }
-.navigator .redes-sociais_menu-lateral .facebook {
+.redes-sociais_menu-lateral .facebook {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,13 +99,13 @@ html, body, h1, p, button, a {
   border: 1px solid #D8D8D8;
   border-radius: 50%;
 }
-.navigator .redes-sociais_menu-lateral .facebook img {
+.redes-sociais_menu-lateral .facebook img {
   color: black;
   width: 12px;
   height: 12px;
   margin: 0;
 }
-.navigator .redes-sociais_menu-lateral .facebook:hover {
+.redes-sociais_menu-lateral .facebook:hover {
   transition: all 1s;
   opacity: 0.2;
   border: none;
@@ -101,7 +114,7 @@ html, body, h1, p, button, a {
   height: 42px;
   background-color: #5468E7;
 }
-.navigator .redes-sociais_menu-lateral .youtube {
+.redes-sociais_menu-lateral .youtube {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,12 +125,12 @@ html, body, h1, p, button, a {
   border: 1px solid #D8D8D8;
   margin: 0 32px;
 }
-.navigator .redes-sociais_menu-lateral .youtube img {
+.redes-sociais_menu-lateral .youtube img {
   width: 12px;
   height: 12px;
   margin: 0;
 }
-.navigator .redes-sociais_menu-lateral .youtube:hover {
+.redes-sociais_menu-lateral .youtube:hover {
   transition: all 1s;
   border: none;
   cursor: pointer;
@@ -125,7 +138,7 @@ html, body, h1, p, button, a {
   height: 42px;
   background-color: #5468E7;
 }
-.navigator .redes-sociais_menu-lateral .instagram {
+.redes-sociais_menu-lateral .instagram {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -134,18 +147,38 @@ html, body, h1, p, button, a {
   height: 40px;
   border-radius: 50%;
 }
-.navigator .redes-sociais_menu-lateral .instagram img {
+.redes-sociais_menu-lateral .instagram img {
   width: 12px;
   height: 12px;
   margin: 0;
 }
-.navigator .redes-sociais_menu-lateral .instagram:hover {
+.redes-sociais_menu-lateral .instagram:hover {
   transition: all 1s;
   border: none;
   cursor: pointer;
   width: 42px;
   height: 42px;
   background-color: #5468E7;
+}
+
+.menu-lateral_ativo {
+  display: flex;
+  flex-direction: column;
+  transition: 0.25s;
+  right: 0;
+  left: 0;
+}
+
+.home-container_desativado {
+  display: none;
+}
+
+.rodape_desativado {
+  display: none;
+}
+
+.design-container_desativado {
+  display: none;
 }
 
 body {
@@ -166,6 +199,7 @@ body .home-container {
   height: 780px;
 }
 body .home-container .texto-descricao {
+  z-index: 0;
   width: 311px;
   display: flex;
   flex-direction: column;
@@ -180,12 +214,41 @@ body .home-container .texto-descricao p {
   font-weight: 400;
   line-height: 28px;
   color: #606060;
-  margin: 30px 0 30px 0;
+  margin: 30px 0 10px 0;
+}
+body .home-container .texto-descricao .design-container_buttons {
+  display: flex;
+  margin: 10px 0 30px 0;
+}
+body .home-container .texto-descricao .design-container_buttons .button-left {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 16px;
+  background-color: #808080;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .home-container .texto-descricao .design-container_buttons .button-left:hover {
+  background-color: #FFFFFF;
+}
+body .home-container .texto-descricao .design-container_buttons .button-right {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #5468E7;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 body .home-container .img-container1 {
-  position: absolute;
-  top: 320px;
+  position: relative;
+  top: -150px;
   right: 0px;
+  z-index: -1;
 }
 body .home-container .img-container1 .img-home_container {
   width: 100%;
@@ -194,8 +257,8 @@ body .home-container .img-container1 .img-home_container {
 body .rodape .contact-us {
   height: 548px;
   margin: 40px 32px 0 32px;
-  background-color: black;
-  background: url(/assets/bg-footer.svg);
+  background-color: #5468E7;
+  background-image: url(/assets/line__footer.svg);
   background-repeat: no-repeat;
   border-radius: 24px;
   text-align: center;

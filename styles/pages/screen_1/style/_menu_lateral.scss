@@ -1,13 +1,16 @@
-.navigator{
+.menu-lateral{
+    display: none;
+    position: absolute;
     background-color: #232340;
-    transition-timing-function: ease;
-    transition-duration: 2s;
-    .menu-lateral{
-        .cabecalho_menu-lateral{
+    right: -100vw;
+    bottom: 0;
+    top: 0;
+    transition: .25s;
+         .cabecalho_menu-lateral{
             display: flex;
             justify-content: space-between;
             width: 375px;
-            height: 128px;
+            height: max-content;
             .logo_menu-lateral{
                 width: 128px;
                 height: 32px;
@@ -18,6 +21,8 @@
                 margin: 52px 32px 0px 0px;
                 width: 32px;
                 height: 32px;
+                background: none;
+                border: none;
                 img{
                     width: 32px;
                     height: 32px;
@@ -121,4 +126,20 @@
             }
         }
     }
+
+.menu-lateral_ativo{
+    display: flex;
+    flex-direction: column;
+    transition: .25s;
+    right: 0;
+    left: 0;
+}
+.home-container_desativado{
+    display: none;
+}
+.rodape_desativado{
+    display: none;
+}
+.design-container_desativado{
+    display: none;
 }
