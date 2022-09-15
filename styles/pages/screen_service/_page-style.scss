@@ -1,0 +1,182 @@
+body{
+    background-image: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
+    .cabecalho_service {
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 128px;
+        padding: 0 16px;
+    
+        .cabecalho-logo {
+            width: 127.2px;
+            height: 32px;
+        }
+    
+        .cabecalho-navbar {
+            background-color: transparent;
+            border: none;
+            width: auto;
+            height: auto;
+    
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    
+    .design-container_service {
+        color: #000000;
+        height: max-content;
+    
+        .design-container_conteudo {
+            margin-left: 33px;
+    
+            .design-container_numeracao_service {
+                font-size: 14px;
+                display: inline-block;
+                margin: 0 24px 24px 0;
+                color: #5468E7;
+            }
+    
+            .design-container_semi-titulo_service {
+                display: inline-block;
+                font-size: 14px;
+                margin: 0;
+                color: #5468E7;
+            }
+    
+            .design-container_titulo {
+                font-weight: 700;
+                font-size: 40px;
+            }
+    
+            .design-container_buttons {
+                display: flex;
+                margin-top: 32px;
+    
+                .design-container_navigator1 {
+                    width: 48px;
+                    height: 48px;
+                    border-radius: 50%;
+                    margin-right: 16px;
+                    background-color: transparent;
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+    
+                .design-container_navigator2 {
+                    width: 48px;
+                    height: 48px;
+                    border-radius: 50%;
+                    background-color: #5468E7;
+                    border: none;
+                    text-align: center;
+                    align-items: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+
+        }
+    
+        .cards{
+            .card_style{
+                background-color: #FFFFFF;
+                width: 311px;
+                height: 190px;
+                margin: 56px 32px 0 32px;
+                border-radius: 32px;
+                color: #5468E7;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img{
+                    width: 91px;
+                    height: 91px;
+                    padding-right: 25px;
+                }
+                h1{
+                    font-size: 18px;
+                }
+                &:hover{
+                    background-color: #5468E7;
+                    color: #FFFFFF;
+                    cursor: pointer;
+                    transition: 1s;
+                }
+            }
+        }
+    }
+    .achievement-container{
+        .achievement-container_conteudo{
+            margin: 56px 0 0 32px;
+            .semi-titulo{
+                display: flex;
+                height: max-content;
+                .num_semi-titulo{
+                    color: #8B8B8B;
+                    padding-right: 24px;
+                    margin: 0;
+                    margin-bottom: 24px;
+                }
+                h4{
+                    font-size: 14px;
+                    margin-bottom: 24px;
+                    margin: 0;
+                }
+            }
+            .titulo{
+                font-weight: 700;
+                font-size: 24px;
+                color: #232340;
+            }
+            .numeracao{
+                font-size: 140px;
+                color: #5468E7;
+                padding-top: 32px;
+            }
+            .mensagem{
+                font-size: 18px;
+                margin: 0;
+            }
+        }
+        .slide{
+            img{
+                margin-top: 36px;
+            }
+            .radios{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                bottom: -1590px;
+                left: 130px;
+                input{
+                    height: 12px;
+                    width: 12px;
+                    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+                    background: #FFFFFF;
+                    border: none;
+                    margin: 15px;
+                    &::before{
+                        content: '';
+                        position: absolute;
+                        height: 12px;
+                        width: 12px;
+                        border-radius: 50%;
+                        background: linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
+                        opacity: 0;
+                        border: none;
+                    }
+                    &:checked::before{
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
