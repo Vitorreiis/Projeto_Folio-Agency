@@ -1233,8 +1233,8 @@ main .main-container_cta .container-cta .img-background {
 }
 .body-the_number .number-container {
   background-color: #232340;
-  padding: 0 33px;
   color: #FFFFFF;
+  padding-left: 32px;
 }
 .body-the_number .number-container .design-container_numeracao {
   font-size: 14px;
@@ -1289,14 +1289,15 @@ main .main-container_cta .container-cta .img-background {
   height: 52px;
   cursor: pointer;
 }
-.body-the_number .number-container .big-numeracao {
+.body-the_number .number-container .big-numeracao_icon {
+  margin-top: 30px;
+  display: flex;
+}
+.body-the_number .number-container .big-numeracao_icon h1 {
   font-size: 140px;
 }
-.body-the_number .number-container .big-numeracao .sub-numeracao {
-  font-size: 45px;
-  position: relative;
-  top: -70px;
-  left: 10px;
+.body-the_number .number-container .big-numeracao_icon h2 {
+  font-size: 45.5111px;
 }
 .body-the_number .number-container .titulo-big-numeracao {
   font-size: 18px;
@@ -1329,6 +1330,17 @@ main .main-container_cta .container-cta .img-background {
   border: none;
   padding: 10px;
   font-size: 12px;
+}
+.body-the_number .number-container .big-numeracao {
+  font-size: 140px;
+  color: #FFFFFF;
+  padding: 0;
+}
+.body-the_number .number-container .big-numeracao .sub-numeracao {
+  font-size: 45px;
+  position: relative;
+  top: -70px;
+  left: 10px;
 }
 .body-the_number .number-container .img-number-2 {
   width: -webkit-max-content;

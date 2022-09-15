@@ -38,8 +38,8 @@
 
     .number-container {
         background-color: #232340;
-        padding: 0 33px;
         color: #FFFFFF;
+        padding-left: 32px;
 
         .design-container_numeracao {
             font-size: 14px;
@@ -100,15 +100,15 @@
             }
         }
 
-        .big-numeracao {
+        .big-numeracao_icon {
+            margin-top: 30px;
+            display: flex;
+           h1{
             font-size: 140px;
-
-            .sub-numeracao {
-                font-size: 45px;
-                position: relative;
-                top: -70px;
-                left: 10px;
-            }
+           }
+           h2{
+            font-size: 45.5111px;
+           }
         }
 
         .titulo-big-numeracao {
@@ -148,6 +148,18 @@
             border: none;
             padding: 10px;
             font-size: 12px;
+        }
+        .big-numeracao {
+            font-size: 140px;
+            color: #FFFFFF;
+            padding: 0;
+
+            .sub-numeracao {
+                font-size: 45px;
+                position: relative;
+                top: -70px;
+                left: 10px;
+            }
         }
 
         .img-number-2 {
