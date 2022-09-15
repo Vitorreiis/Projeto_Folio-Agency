@@ -1,0 +1,305 @@
+.body-the_number {
+    background-image: none;
+
+    .cabecalho_case-study {
+        background-color: #232340;
+        height: 128px;
+
+        .cabecalho_menu-lateral {
+            display: flex;
+            justify-content: space-between;
+            height: 375px;
+            height: max-content;
+
+            .logo_menu-lateral {
+                width: 128px;
+                height: 32px;
+                margin: 52px 0 0 32px;
+
+            }
+
+            .cabecalho-navbar {
+                margin: 52px 32px 0px 0px;
+                width: 32px;
+                height: 32px;
+                background: none;
+                border: none;
+
+                img {
+                    width: 32px;
+                    height: 32px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+    .number-container {
+        background-color: #232340;
+        padding: 0 33px;
+        color: #FFFFFF;
+
+        .design-container_numeracao {
+            font-size: 14px;
+            display: inline-block;
+            margin: 0 24px 24px 0;
+            color: #ADADAD;
+        }
+
+        .design-container_semi-titulo {
+            display: inline-block;
+            font-size: 14px;
+        }
+
+        .design-container_titulo {
+            font-weight: 700;
+            font-size: 40px;
+        }
+
+        .design-container_buttons {
+            display: flex;
+            margin-top: 32px;
+
+            .design-container_navigator1 {
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                margin-right: 16px;
+                background-color: transparent;
+                border: none;
+                &:hover {
+                    transition: 1s;
+                    opacity: 0.5;
+                    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+                    width: 52px;
+                    height: 52px;
+                    cursor: pointer;
+                }
+            }
+
+            .design-container_navigator2 {
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                background-color: #5468E7;
+                border: none;
+                text-align: center;
+                align-items: center;
+                padding: 10px;
+                margin-right: 56px;
+                &:hover {
+                    transition: 1s;
+                    opacity: 0.5;
+                    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+                    width: 52px;
+                    height: 52px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .big-numeracao {
+            font-size: 140px;
+
+            .sub-numeracao {
+                font-size: 45px;
+                position: relative;
+                top: -70px;
+                left: 10px;
+            }
+        }
+
+        .titulo-big-numeracao {
+            font-size: 18px;
+            margin: 9px 0 32px 0;
+        }
+
+        .paragrafo-big-numeracao {
+            border-top: 0.711111px solid #606060;
+            color: #8B8B8B;
+            font-size: 16px;
+            margin-bottom: 32px;
+            padding-top: 32px;
+            line-height: 28px;
+        }
+
+        .button-download {
+            display: flex;
+            align-items: center;
+
+            a {
+                margin-right: 10px;
+            }
+
+            h1 {
+                font-size: 16px;
+
+            }
+        }
+
+        .design-container_navdata {
+            color: #FFFFFF;
+            width: 144px;
+            height: 48px;
+            background-color: #303055;
+            border-radius: 8px;
+            border: none;
+            padding: 10px;
+            font-size: 12px;
+        }
+
+        .img-number-2 {
+            width: max-content;
+            height: max-content;
+            position: relative;
+            top: 150px;
+            left: -36px;
+        }
+    }
+
+    .container-2 {
+        background-image: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
+        padding: 0 33px;
+        color: black;
+
+        .design-container_numeracao {
+            font-size: 14px;
+            display: inline-block;
+            margin: 214px 24px 24px 0;
+            color: #5468E7;
+        }
+
+        .design-container_semi-titulo {
+            display: inline-block;
+            font-size: 14px;
+            color: #5468E7;
+        }
+
+        .design-container_titulo {
+            font-weight: 700;
+            font-size: 40px;
+        }
+
+        .big-numeracao {
+            font-size: 140px;
+            color: #5468E7;
+
+            .sub-numeracao {
+                font-size: 45px;
+                position: relative;
+                top: -70px;
+                left: 10px;
+            }
+        }
+
+        .titulo-big-numeracao {
+            font-size: 18px;
+            margin: 9px 0 32px 0;
+        }
+
+        .paragrafo-big-numeracao {
+            line-height: 28px;
+            color: #8B8B8B;
+            font-size: 16px;
+            margin-bottom: 32px;
+            padding-top: 32px;
+        }
+
+        .button-download {
+            display: flex;
+            align-items: center;
+
+            a {
+                margin-right: 10px;
+            }
+
+            h1 {
+                font-size: 16px;
+
+            }
+        }
+
+        #design-container_navdata {
+            margin-left: 54px;
+            color: #FFFFFF;
+            width: 144px;
+            height: 48px;
+            background-color: #303055;
+            border-radius: 8px;
+            border: none;
+            padding: 10px;
+            font-size: 12px;
+        }
+        .cards{
+            .card_style{
+                background-color: #FFFFFF;
+                border-radius: 28.4444px;
+                .card-1{
+                    display: flex;
+                    align-items: center;
+                    padding: 40px 20px 40px 20px;
+                    border-radius: 28.4444px;
+                    img{
+                        margin-right: 20px;
+                    }
+                    h1{
+                        font-size: 18px;
+                        color: #232340;
+                    }
+                    &:hover{
+                        background-color: #5468E7;
+                        cursor: pointer;
+                        transition: 1s;
+                        h1{
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+                .card-2{
+                    display: flex;
+                    align-items: center;
+                    padding: 40px 26px;
+                    border-radius: 28.4444px;
+                    img{
+                        margin-right: 20px;
+                    }
+                    h1{
+                        font-size: 18px;
+                        color: #232340;
+                    }
+                    &:hover{
+                        background-color: #5468E7;
+                        h1{
+                            color: #FFFFFF;
+                        }
+                        cursor: pointer;
+                        transition: 1s;
+                    }
+                }
+                .card-3{
+                    display: flex;
+                    align-items: center;
+                    padding: 40px 26px;
+                    border-radius: 28.4444px;
+                    img{
+                        margin-right: 20px;
+                    }
+                    h1{
+                        font-size: 18px;
+                        color: #232340;
+                    }
+                    &:hover{
+                        background-color: #5468E7;
+                        h1{
+                            color: #FFFFFF;
+                        }
+                        cursor: pointer;
+                        transition: 1s;
+                    }
+                }
+            }
+        }
+    }
+}
