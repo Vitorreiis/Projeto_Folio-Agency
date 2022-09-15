@@ -1,4 +1,4 @@
-html, body, h1, p, button, a {
+html, body, h1, h2, h3, h4, h5, p, button, a {
   font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
@@ -1061,4 +1061,138 @@ main .main-container_cta .container-cta .img-background {
   position: absolute;
   right: 0;
   z-index: -1;
+}
+
+.main-page .img-1-overview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.main-page .img-1-overview .radios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+.main-page .img-1-overview .radios input {
+  height: 6px;
+  width: 6px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  background: #FFFFFF;
+  border: none;
+  margin: 15px;
+  z-index: -1;
+}
+.main-page .img-1-overview .radios input::before {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
+  opacity: 0;
+  border: none;
+}
+.main-page .img-1-overview .radios input:checked::before {
+  opacity: 1;
+}
+.main-page .design-container_conteudo {
+  margin: 0 33px;
+}
+.main-page .design-container_conteudo .design-container_numeracao {
+  font-size: 14px;
+  display: inline-block;
+  margin: 0 24px 24px 0;
+  color: #5468E7;
+}
+.main-page .design-container_conteudo .design-container_semi-titulo {
+  display: inline-block;
+  font-size: 14px;
+  margin: 0;
+  color: #5468E7;
+}
+.main-page .design-container_conteudo .design-container_titulo {
+  font-weight: 700;
+  font-size: 40px;
+}
+.main-page .design-container_conteudo .design-container_paragrafo {
+  margin-top: 48px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #606060;
+}
+.main-page .design-container_conteudo .design-container_buttons {
+  display: flex;
+  margin-top: 32px;
+}
+.main-page .design-container_conteudo .design-container_buttons .design-container_navigator1 {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 16px;
+  background-color: #606060;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-page .design-container_conteudo .design-container_buttons .design-container_navigator1:hover {
+  transition: 1s;
+  opacity: 0.5;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
+}
+.main-page .design-container_conteudo .design-container_buttons .design-container_navigator2 {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #5468E7;
+  border: none;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-page .design-container_conteudo .design-container_buttons .design-container_navigator2:hover {
+  transition: 1s;
+  opacity: 0.5;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
+}
+.main-page .design-container_conteudo h2 {
+  font-size: 24px;
+  margin: 40px 0 32px 0;
+}
+.main-page .cards .card_style {
+  background-color: #FFFFFF;
+  width: 311px;
+  height: 256px;
+  margin: 16px 32px 50px 32px;
+  border-radius: 32px;
+  color: #5468E7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+}
+.main-page .cards .card_style img {
+  width: 91px;
+  height: 91px;
+  padding-right: 25px;
+}
+.main-page .cards .card_style h1 {
+  font-size: 18px;
+}
+.main-page .cards .card_style:hover {
+  background-color: #5468E7;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: 1s;
 }/*# sourceMappingURL=style.css.map */
