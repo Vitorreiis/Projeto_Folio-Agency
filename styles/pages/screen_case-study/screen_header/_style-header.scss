@@ -1,0 +1,139 @@
+.corpo-pagina {
+    background: url('/assets/line_case-study_header.svg');
+    background-repeat: no-repeat;
+    background-position: right top;
+
+    .cabecalho_case-study {
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 128px;
+        padding: 0 16px;
+
+        .cabecalho-logo {
+            width: 127.2px;
+            height: 32px;
+        }
+
+        .cabecalho-navbar {
+            background-color: transparent;
+            border: none;
+            width: auto;
+            height: auto;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    .main-page{
+        .conteudo_main-page{
+            margin: 0 32px;
+            .button_featured{
+                display: flex;
+                width: 119px;
+                height: 29px;
+                font-size: 10px;
+                background: #FFBA79;
+                border-radius: 14.2222px;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                background: #FFBA79;
+                border-radius: 14.2222px;
+                color: #FFFFFF;
+                margin-bottom: 16px;
+            }
+            h1{
+                font-weight: bold;
+                font-size: 64px;
+                color: #232340;
+                margin-bottom: 16px;
+            }
+            h2{
+                margin: 0;
+                margin-bottom: 16px;
+                font-size: 16px;
+                color: #232340;
+            }
+            .cta-container_buttons {
+                display: flex;
+                margin-top: 32px;
+                z-index: 1;
+
+                .cta-container_navigator1 {
+                    width: 48px;
+                    height: 48px;
+                    border-radius: 50%;
+                    margin-right: 16px;
+                    background-color: #808080;
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    &:hover{
+                        transition: 1s;
+                        opacity: 0.5;
+                        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+                        width: 52px;
+                        height: 52px;
+                        cursor: pointer;
+                    }
+                }
+
+                .cta-container_navigator2 {
+                    width: 48px;
+                    height: 48px;
+                    border-radius: 50%;
+                    background-color: #5468E7;
+                    border: none;
+                    text-align: center;
+                    align-items: center;
+                    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    &:hover{
+                        transition: 1s;
+                        opacity: 0.5;
+                        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+                        width: 52px;
+                        height: 52px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .icons_main-page{
+                margin-top: 32px;
+                display: flex;
+                .card_icon-1{
+                    img{
+                        margin-bottom: 16px;
+                    }
+                    p{
+                        font-size: 12px;
+                        color: #5468E7;
+                    }
+                }
+                .card_icon-2{
+                    margin-left: 40px;
+                    img{
+                        margin-bottom: 16px;
+                    }
+                    p{
+                        font-size: 12px;
+                        color: #5468E7;
+                    }
+                }
+            }
+            .img-3_header{
+                width: max-content;
+                height: max-content;
+                position: absolute;
+                right: 0;
+                z-index: -1;
+            }
+        }
+    }
+}
