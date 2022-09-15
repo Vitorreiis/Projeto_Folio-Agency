@@ -231,6 +231,13 @@ body .home-container .texto-descricao .design-container_buttons .button-left {
   justify-content: center;
   align-items: center;
 }
+body .home-container .texto-descricao .design-container_buttons .button-left:hover {
+  transition: 1s;
+  opacity: 0.5;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  width: 52px;
+  height: 52px;
+}
 body .home-container .texto-descricao .design-container_buttons .button-right {
   width: 48px;
   height: 48px;
@@ -240,6 +247,13 @@ body .home-container .texto-descricao .design-container_buttons .button-right {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+body .home-container .texto-descricao .design-container_buttons .button-right:hover {
+  transition: 1s;
+  opacity: 0.5;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  width: 52px;
+  height: 52px;
 }
 body .home-container .img-container1 {
   position: relative;
@@ -433,6 +447,14 @@ body .rodape .navegacao-footer h4 {
   background-color: transparent;
   border: none;
 }
+.design-container .design-container_conteudo .design-container_buttons .design-container_navigator1:hover {
+  transition: 1s;
+  opacity: 0.5;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
+}
 .design-container .design-container_conteudo .design-container_buttons .design-container_navigator2 {
   width: 48px;
   height: 48px;
@@ -441,6 +463,14 @@ body .rodape .navegacao-footer h4 {
   border: none;
   text-align: center;
   align-items: center;
+}
+.design-container .design-container_conteudo .design-container_buttons .design-container_navigator2:hover {
+  transition: 1s;
+  opacity: 0.5;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
 }
 .design-container .design-container_conteudo #design-container_navdata {
   margin-left: 54px;
@@ -549,6 +579,14 @@ body .design-container_service .design-container_conteudo .design-container_butt
   align-items: center;
   justify-content: center;
 }
+body .design-container_service .design-container_conteudo .design-container_buttons .design-container_navigator1:hover {
+  transition: 1s;
+  opacity: 0.5;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
+}
 body .design-container_service .design-container_conteudo .design-container_buttons .design-container_navigator2 {
   width: 48px;
   height: 48px;
@@ -560,6 +598,14 @@ body .design-container_service .design-container_conteudo .design-container_butt
   display: flex;
   align-items: center;
   justify-content: center;
+}
+body .design-container_service .design-container_conteudo .design-container_buttons .design-container_navigator2:hover {
+  transition: 1s;
+  opacity: 0.5;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
 }
 body .design-container_service .cards .card_style {
   background-color: #FFFFFF;
@@ -700,6 +746,7 @@ body .achievement-container .slide .radios input:checked::before {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
   width: 52px;
   height: 52px;
+  cursor: pointer;
 }
 .home-work .design-container_conteudo .design-container_buttons .design-container_navigator2 {
   width: 48px;
@@ -719,6 +766,7 @@ body .achievement-container .slide .radios input:checked::before {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
   width: 52px;
   height: 52px;
+  cursor: pointer;
 }
 .home-work .cards-work {
   margin: 0 32px;
@@ -774,4 +822,109 @@ body .achievement-container .slide .radios input:checked::before {
   margin-left: 0;
   margin-top: 24px;
   border: 3px solid black;
+}
+.home-work .cards-work .button-contact-us {
+  width: 313px;
+  height: 46px;
+  background: #5468E7;
+  border-radius: 8px;
+  color: #FFFFFF;
+  border: none;
+  font-size: 16px;
+  margin-top: 32px;
+}
+
+main .main-container_cta .container-cta {
+  width: 311px;
+  height: 929px;
+  background: #5468E7;
+  border-radius: 28.4444px;
+  margin: 0 auto;
+  color: #FFFFFF;
+  z-index: 0;
+}
+main .main-container_cta .container-cta .cta-container_conteudo {
+  margin-left: 39px;
+  margin-right: 10px;
+  z-index: 1;
+}
+main .main-container_cta .container-cta .cta-container_conteudo .cta-container_numeracao {
+  font-size: 14px;
+  display: inline-block;
+  margin: 64px 24px 24px 0;
+}
+main .main-container_cta .container-cta .cta-container_conteudo .cta-container_semi-titulo {
+  display: inline-block;
+  font-size: 14px;
+}
+main .main-container_cta .container-cta .cta-container_conteudo .cta-container_titulo {
+  font-weight: 700;
+  font-size: 45px;
+  z-index: 2;
+}
+main .main-container_cta .container-cta .cta-container_conteudo .cta-container_buttons {
+  display: flex;
+  margin-top: 32px;
+  z-index: 1;
+}
+main .main-container_cta .container-cta .cta-container_conteudo .cta-container_buttons .cta-container_navigator1 {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 16px;
+  background-color: #808080;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main-container_cta .container-cta .cta-container_conteudo .cta-container_buttons .cta-container_navigator1:hover {
+  transition: 1s;
+  opacity: 0.5;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
+}
+main .main-container_cta .container-cta .cta-container_conteudo .cta-container_buttons .cta-container_navigator2 {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #5468E7;
+  border: none;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main-container_cta .container-cta .cta-container_conteudo .cta-container_buttons .cta-container_navigator2:hover {
+  transition: 1s;
+  opacity: 0.5;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
+}
+main .main-container_cta .container-cta .cta-container_conteudo .botao-cta {
+  margin-top: 32px;
+  width: 143px;
+  height: 46px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  text-decoration: none;
+  color: #5468E7;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main-container_cta .container-cta .img-background {
+  position: absolute;
+  bottom: -350px;
+  left: 0;
+  z-index: 0;
 }/*# sourceMappingURL=style.css.map */

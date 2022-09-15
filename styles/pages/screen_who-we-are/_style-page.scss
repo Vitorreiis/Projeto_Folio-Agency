@@ -28,6 +28,14 @@
                 margin-right: 16px;
                 background-color: transparent;
                 border: none;
+                &:hover{
+                    transition: 1s;
+                    opacity: 0.5;
+                    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+                    width: 52px;
+                    height: 52px;
+                    cursor: pointer;
+                }
             }
             .design-container_navigator2{
                 width: 48px;
@@ -37,6 +45,14 @@
                 border: none;
                 text-align: center;
                 align-items: center;
+                &:hover{
+                    transition: 1s;
+                    opacity: 0.5;
+                    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+                    width: 52px;
+                    height: 52px;
+                    cursor: pointer;
+                }
             }
         }
         #design-container_navdata{
