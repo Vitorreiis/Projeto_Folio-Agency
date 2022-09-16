@@ -28,6 +28,9 @@
                 margin-right: 16px;
                 background-color: transparent;
                 border: none;
+                align-items: center;
+                display: flex;
+                justify-content: center;
                 &:hover{
                     transition: 1s;
                     opacity: 0.5;
@@ -45,6 +48,8 @@
                 border: none;
                 text-align: center;
                 align-items: center;
+                display: flex;
+                justify-content: center;
                 &:hover{
                     transition: 1s;
                     opacity: 0.5;
